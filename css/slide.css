@@ -1,0 +1,34 @@
+@charset 'utf-8';
+
+.slider{
+    overflow: hidden;
+}
+
+.container{
+    width: 200vw;
+    transition: transform 0.5s;
+}
+
+.slide{
+    width: 100vw;
+    float: left;
+}
+.slide img{
+    width: 100%;
+}
+.btn{
+    width: 10px;
+    height: 15px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    text-indent: -99999px;
+    position: absolute;
+    bottom: 30%;
+}
+.btn01{
+    left: 49%;
+}
+.btn02{
+    left: 51%;
+}
